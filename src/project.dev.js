@@ -133,6 +133,7 @@ window.__require = function e(t, n, r) {
       deleteListView: function deleteListView() {
         this.content.removeAllChildren();
         this.content.height = 220;
+        users = [];
       },
       checkEmail: function checkEmail() {
         var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9-]+)$/;
